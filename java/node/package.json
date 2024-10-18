@@ -1,0 +1,17 @@
+{
+  "name": "poke",
+  "version": "1.0.0",
+  "description": "una pokedex",
+  "main": "indexN.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "express",
+    "testing"
+  ],
+  "author": "Alberto and Mariem",
+  "license": "ISC"
+}
