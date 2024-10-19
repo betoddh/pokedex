@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <!-- Google Font Khand -->
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <h2>Pokedex</h2>
+            <input type="text" id="searchBar" placeholder="Looking for a pokemon?">
+            <nav>
+                <ul>
+                    <!-- 18 secciones en el sidebar -->
+                    <li><a href="#bug"><img src="/java/express/public/images/Bug.png" alt="Bug icon"><span>Bug Pokemon</span></a></li>
+                    <li><a href="#dark"><img src="/java/express/public/images/Dark.png" alt="Dark icon"><span>Dark Pokemon</span></a></li>
+                    <li><a href="#dragon"><img src="/java/express/public/images/Dragon.png" alt="Dragon icon"><span>Dragon Pokemon</span></a></li>
+                    <li><a href="#electric"><img src="/java/express/public/images/Electric.png" alt="Electric icon"><span>Electric Pokemon</span></a></li>
+                    <li><a href="#fairy"><img src="/java/express/public/images/Fairy.png" alt="Fairy icon"><span>Fairy Pokemon</span></a></li>
+                    <li><a href="#fighting"><img src="/java/express/public/images/Fighting.png" alt="Fighting icon"><span>Fighting Pokemon</span></a></li>
+                    <li><a href="#fire"><img src="/java/express/public/images/Fire.png" alt="Fire icon"><span>Fire Pokemon</span></a></li>
+                    <li><a href="#flying"><img src="/java/express/public/images/Flying.png" alt="Flying icon"><span>Flying Pokemon</span></a></li>
+                    <li><a href="#ghost"><img src="/java/express/public/images/Ghost.png" alt="Ghost icon"><span>Ghost Pokemon</span></a></li>
+                    <li><a href="#grass"><img src="/java/express/public/images/Grass.png" alt="Grass icon"><span>Grass Pokemon</span></a></li>
+                    <li><a href="#ground"><img src="./java/express/views/partials/public/images//Ground.png" alt="Ground icon"><span>Ground Pokemon</span></a></li>
+                    <li><a href="#ice"><img src="/java/express/public/images/Ice.png" alt="Ice icon"><span>Ice Pokemon</span></a></li>
+                    <li><a href="#normal"><img src="/java/express/public/images/Normal.png" alt="Normal icon"><span>Normal Pokemon</span></a></li>
+                    <li><a href="#poison"><img src="/java/express/public/images/Poison.png" alt="Poison icon"><span>Poison Pokemon</span></a></li>
+                    <li><a href="#psychic"><img src="/java/express/public/images/Psychic.png" alt="Psychic icon"><span>Psychic Pokemon</span></a></li>
+                    <li><a href="#rock"><img src="/java/express/public/images/Rock.png" alt="Rock icon"><span>Rock Pokemon</span></a></li>
+                    <li><a href="#steel"><img src="/java/express/public/images/Steel.png" alt="Steel icon"><span>Steel Pokemon</span></a></li>
+                    <li><a href="#water"><img src="/java/express/public/images/Water.png" alt="Water icon"><span>Water Pokemon</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <main>
+        <!-- Secciones del contenido principal -->
+        <section id="bug"><h1>Bug Pokemon</h1>
+            <div id="pokemon-container"></div>
+        </section>
+        <section id="dark"><h1>Dark Pokemon</h1></section>
+        <section id="dragon"><h1>Dragon Pokemon</h1></section>
+        <section id="electric"><h1>Electric Pokemon</h1></section>
+        <section id="fairy"><h1>Fairy Pokemon</h1></section>
+        <section id="fighting"><h1>Fighting Pokemon</h1></section>
+        <section id="fire"><h1>Fire Pokemon</h1></section>
+        <section id="flying"><h1>Flying Pokemon</h1></section>
+        <section id="ghost"><h1>Ghost Pokemon</h1></section>
+        <section id="grass"><h1>Grass Pokemon</h1></section>
+        <section id="ground"><h1>Ground Pokemon</h1></section>
+        <section id="ice"><h1>Ice Pokemon</h1></section>
+        <section id="normal"><h1>Normal Pokemon</h1></section>
+        <section id="poison"><h1>Poison Pokemon</h1></section>
+        <section id="psychic"><h1>Psychic Pokemon</h1></section>
+        <section id="rock"><h1>Rock Pokemon</h1></section>
+        <section id="steel"><h1>Steel Pokemon</h1></section>
+        <section id="water"><h1>Water Pokemon</h1></section>
+    </main>
+
+    <div id="pokemon-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

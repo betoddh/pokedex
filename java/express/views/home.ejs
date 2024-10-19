@@ -1,57 +1,11 @@
-<%- include("partials/header"); -%>
+<%- include("./partials/header"); -%>
 
-<a href="/info">tell me info on a pokemon</a></p>
-    <h2>imagen</h2>
-    <% if (ima){ %>
-        <img src= <%= ima%>>
-    <% } %>
-    <h2>Nombre</h2>
-    <% if (name){ %>
-        <p><%= name %></p>
-    <% } %>
-    <h2>Tipo</h2>
-    <% if (type){ %>
-        <p><%= type.join(", ") %></p>
-    <% } %>
-    <h2>xp</h2>
-    <% if (xp){ %>
-        <p><%= xp %></p>
-    <% } %>
-    <h2>peso</h2>
-    <% if (weight){ %>
-        <p><%= weight %></p>
-    <% } %>
-    <h2>altura</h2>
-    <% if (height){ %>
-        <p><%= height %></p>
-    <% } %>
-    <h2>movimientos</h2>
-    <% if (moves.length) { %>
-        <ul>
-            <% moves.forEach(move => { %>
-                <li><%= move %></li>
-            <% }); %>
-        </ul>
-    <% } %>
-    <h2>abilidades</h2>
-    <% if (abilities.length) { %>
-        <ul>
-            <% abilities.forEach(ability => { %>
-                <li><%= ability %></li>
-            <% }); %>
-        </ul>
-    <% } %>
-    <h2>ID</h2>
-    <% if (id){ %>
-        <p><%= id %></p>
-    <% } %>
-    <h2>Stats</h2>
-    <% if (stats.length) { %>
-        <ul>
-            <% stats.forEach(stat => { %>
-                <li><%= stat.name %>: <%= stat.base_stat %></li>
-            <% }); %>
-        </ul>
-    <% } %>
+
+
+
+
+<div id="pokemon-container"></div>
+
+<script src="script.js"></script>
 
 <%- include("partials/footer"); -%>
